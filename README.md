@@ -12,6 +12,10 @@ Yihao Zhanga, Meng Yuan, Chu Zhao, Mian Chen and Xiaoyang Liu. Aggregating Knowl
 ## Example to run the codes.
 
 ```
+python preprocess.py 
+
+python deal_data.py
+
 python main.py
 ```
 
@@ -24,6 +28,8 @@ kg.txt:
 
 item_index2entity_id.txt: 
 - the mapping from item indices in the raw rating file to entity IDs in the KG;
+
+user_artists.dat: raw rating file of Last.FM
 
 ratings_final.txt:
 - user item interaction file
